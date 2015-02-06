@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>javascript</title>
+		<meta name="description" content="">
+		<meta name="author" content="nadella">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		 <link href="../bootstrap/bootstrap/css/bootstrap.css" rel="stylesheet" media="all" type="text/css" />
+		
+	</head>
+
+	<body>
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4 well">
+					<!-- <select id="navigatePage" onchange="changeLocation()">
+						<option value=""> --Select-- </option>
+						<option value="http://www.yahoo.com"> Yahoo </option>
+						<option value="http://www.Google.com"> Google </option>
+						<option value="http://www.MSN.com"> MSN </option>
+						<option value="http://www.Bing.com"> Bing </option>
+					</select> -->
+					<form>
+						<div class="form-group">
+							<label for="firstName">First Name</label>
+							<input type="text" class="form-control" id="firstName" placeholder="First Name">
+						</div>
+						<div class="form-group">
+							<label for="lastName">Last Name</label>
+							<input type="text" class="form-control" id="lastName" placeholder="Last Name">
+						</div>
+						<div class="form-group">
+							<label for="email">Email</label>
+							<input type="email" class="form-control" id="email" placeholder="Email Name">
+						</div>
+						<button type="submit" class="btn btn-default" id="submit" style= "display:inline-block">
+							Submit
+						</button>
+						<button type="submit" class="btn btn-default" id="update" style= "dispaly:none">
+							update
+						</button>
+					</form>
+				</div>
+				<div class="col-md-6 well">
+					<table class="table table-striped" id="userTable">
+						<thead>
+							<th>SNo</th>
+							<th>First Name</th>
+							<th>Last Name</th>
+							<th>Email</th>
+							<th>Edit</th>
+							<th>Delete</th>
+						</thead>
+					</table>
+				</div>
+			</div>
+		</div>
+		<script>
+			//function changeLocation() {
+				//var e = document.getElementById("navigatePage");
+				//var selected = e.options[e.selectedIndex].value;
+				//location.href = selected;
+				//console.log(selected);
+				// if(selected == "Yahoo"){
+				// console.log("go to Yahoo.com");
+				// location.href = "http://www.yahoo.com"
+				// }
+				// else if(selected == "Google"){
+				// console.log("go to Google.com")
+				// location.href = "http://www.Google.com"
+				// }
+				// else if(selected == "MSN"){
+				// console.log("go to MSN.com");
+				// location.href = "http://www.MSN.com"
+				// }
+			//}
+		</script>
+		<script src="jquery.js" type="text/javascript">
+			
+		</script>
+		
+		
+		 <script src="custom.js"></script>
+	</body>
+</html>

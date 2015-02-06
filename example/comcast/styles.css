@@ -1,0 +1,117 @@
+body {
+font:12px Verdana, Geneva, Arial, Helvetica, sans-serif;
+}
+*{
+	margin:0px;
+}
+#main-wrapper{
+	width:940px;
+	height:600px;
+	border:1px solid red;	
+}
+#main-wrapper .main-container{
+	width:100%;  
+	height:65%;
+	background:#E5E5E5;
+
+}
+#main-wrapper .main-container .left-container{
+	width:43%;
+	height:75%;
+	border:1px solid gray;
+    float:left;
+    margin:10px 5px 0px 15px;
+    background:#fff;
+    border-radius: 8px;
+    box-shadow:5px 5px 2px #cccccc;
+}
+.left-container p{
+	text-align: center;
+	margin:10px;
+	color:gray;
+}
+.left-container .bill{
+	float:left; 
+	width:40%;
+	height:20%;
+	border:1px solid red;
+	text-align:center;
+		
+}
+ a{
+	text-decoration: none;
+}
+.left-container .paynow{
+	width:45%;
+	height:10%;
+	float:left;
+border:1px solid red;
+	text-align:center;
+	padding: 10px;
+	
+	margin-left:10px;
+}
+.left-container .paynow .paynowbutton{
+	text-align:center;
+	width:60%;
+	
+	
+}
+.paynow a{
+	text-align:center;
+	}
+
+#main-wrapper .main-container .right-container{
+	width:50%;
+	height:95%;
+	/*border:1px solid gray;*/
+    float:right;
+    background:#fff;
+    margin:5px 10px 10px 0px;
+   }
+#main-wrapper .main-container .right-container .right-content{
+	width: 93%;
+	height:90%;
+	border:1px solid gray;
+	margin:20px 5px 10px 25px;
+	border-radius: 8px;
+    box-shadow:3px 3px 1px #cccccc;
+}
+.right-content .header{
+	width:100%;
+	height:50px;
+	border-bottom:1px solid gray;
+	border-radius: 8px 8px 0px 0px;
+	background:#E5E5E5;
+	/*background: url(img/sprites.png) no-repeat  0 -41px;
+	width: 19px;
+	height: 19px;*/
+	
+}
+.header a{
+	/*border:1px solid black;*/
+	float:right;
+	padding:5px;
+	margin:10px;
+}
+.header h3{
+    padding:5px;
+	margin:10px 10px 10px 30px;
+    /*border:1px solid black;*/
+	width: 100px;
+	height:20px;
+	color:green;
+	float: left;
+}
+.header h3 .icon{
+	background: url(img/sprites.png) no-repeat  0 -41px;
+	width: 19px;
+	height: 19px;
+}
+#main-wrapper .bottom{
+	width:100%;
+	height:35%;
+	border: 1px solid green;
+	clear:both;
+}
+

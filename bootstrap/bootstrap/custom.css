@@ -1,0 +1,209 @@
+body {
+font:12px Arial, Helvetica, sans-serif
+}
+*{
+	margin:0px;
+	padding:0px;
+}
+.container-fluid{
+	border:1px solid red;
+	float:left;
+	
+	
+}
+.container-fluid .header{
+	width:97%;
+	border-bottom:2px solid #CFD6DE;
+	float:left;
+}
+
+.header h3{
+	float:left;
+	/*border:1px solid red;*/
+	margin:10px;
+	
+}
+.header .header-content{
+	float:right;
+	margin-top:10px;
+	padding-right:10px;
+	
+}
+.header .search-form{
+	border:1px solid #D5D7D6;
+	border-radius:20px;
+	padding:5px 10px;
+	float:left;
+}
+.search-form input{
+	border:none;
+	float:left;
+}
+.header-content > span{
+	margin-left:10px;
+	float:left;
+	padding:5px 10px;
+}
+.header-content .name{
+	margin-left:10px;
+	float:left;
+	padding:5px 0px 5px 10px;
+
+}
+.name p{
+	float:left;
+	margin-right:5px;
+}
+.name span{
+	float:left;
+}
+.main-container .nav{
+	width:97%;
+	float:left;
+	margin-left: 10px;
+}
+.nav ul li a{
+	color: black;
+	float:left;
+	padding:10px 0px 10px 10px;
+}
+.main-container .container{
+	float:left;
+	border:1px solid green;
+	width:100%;
+}
+.container-fluid .row{
+	float:left;
+	width:99%;
+	margin-left:10px;
+		
+}
+
+.row .col-md-4{
+	float:left;
+	border-radius:5px 5px 0px 0px;
+	margin:5px 5px 5px 0px;
+	padding:0px;
+	width:32.5%;
+}
+.col-md-4 .profile{
+	float:left;
+	width:100%;
+	padding-bottom:20px; 
+	
+}
+.profile .image{
+	background:#1AB396;
+	border-radius:5px 5px 0px 0px;
+	border:1px solid #1AB396;
+	
+}
+.profile .image h3{
+	text-align:center;
+	margin-bottom:0px;
+	color:#fff;	
+}
+.profile .image p{
+	text-align:center;
+	color:#fff;		
+}
+.image .img-circle{
+	margin-left:35%;
+	margin-bottom:10px;
+	margin-top:10px;
+	padding:5px;
+	background:black;
+}
+.image .tweets{
+	text-align:center;
+	color:#fff;
+	padding:10px;
+	margin-bottom:20px;
+}
+.tweets span{
+	border-right:1px solid #fff;
+	padding:0px 5px;
+}
+.profile .profile-bottom{
+	margin:10px;
+}
+.profile-bottom p{
+	padding-top:5px;
+}
+.profile-bottom button{
+	padding:5px;
+	line-height:0px;
+}
+.profile .like{
+	float:right;
+	padding-right:10px;
+}
+.col-md-4 .row2{
+float:left;
+width:100%;
+border-top:2px solid #c1c1c1;
+padding:10px 5px;
+margin-left:10px;
+}
+.row2 .media {
+   border-bottom:1px solid #1ab396;
+    font:9px;
+    margin-top:0px;
+}
+.media-object{
+	width:50px;
+}
+.media-body{
+	font:9px;
+}
+.row2 textarea{
+	width:100%;
+	margin-top:10px;
+}
+.row2 input{
+	float:right;
+	margin-top:10px;
+	padding:4px;
+}
+.col-md-4 .row3{
+    margin-left:10px;
+    float:left;
+    width:97%;
+    border-top:2px solid #c1c1c1;
+    padding:10px 5px;
+    
+}
+.row3 .progressbox{
+	
+	padding:5px;
+	width:100%;
+	float:left;
+}
+.progressbox .progressbar .memory{
+	float:left;
+	width:100%;
+	padding-bottom:5px;
+}
+.progressbar .memory strong{
+	float:left;
+	padding-left:5px;
+}
+.progressbar .memory span{
+	float:right;
+	padding-right:5px;
+}
+.row3 .progress{
+	float:left;
+	width:100%;
+	margin-bottom:10px;
+}
+.panel-primary{
+    float:left;
+    width:90%;
+	border:1px solid blue;
+	margin:10px;
+}
+.panel-body{
+	padding:10px;
+}	
+

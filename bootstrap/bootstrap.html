@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>bootstrap</title>
+		<meta name="description" content="">
+		<meta name="author" content="nadella">
+
+		<meta name="viewport" content="width=device-width; initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet" media="all" type="text/css" />
+		<link href="bootstrap/custom.css" rel="stylesheet" type="text/css" media="all" />
+	</head>
+
+	<body>
+		<div class="container-fluid">
+			<div class="header">
+				<h3>Bootstrap Nav</h3>
+				<div class="header-content">
+					<form class="search-form">
+						<input type="text" value=""  placeholder="Enter Keyword"/>
+						<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+					</form>
+					<span class="glyphicon glyphicon-bell"></span>
+					<div class="name">
+						<p>
+							Adam Schwartz
+						</p>
+						<span class="glyphicon glyphicon-triangle-bottom"></span>
+					</div>
+				</div>
+			</div><!-- header -->
+			<div class="nav">
+				<ul class="nav nav-pills">
+					<li role="presentation">
+						<a href="#">Home</a>
+					</li>
+					<li role="presentation">
+						<a href="#">Settings</a>
+					</li>
+					<li role="presentation">
+						<a href="#"><strong>Profile</strong></a>
+					</li>
+				</ul>
+			</div><!-- nav -->
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="profile">
+							<div class="image">
+								<h3>Alex Smith</h3>
+								<p>
+									Founder of group
+								</p>
+								<img src="img/mickey.png" alt="mickey mouse" class="img-circle">
+								<div class="tweets">
+									<span>100 Tweets</span>
+									<span>350 Following</span>
+									<span>610 Followers</span>
+								</div>
+							</div>
+							<div class="profile-bottom">
+								<strong>Alex Smith</strong>
+								<p>
+									Lorem Ipsum is simply dummy text of the printing and typesetting industry
+								</p>
+							</div>
+							<div class="like">
+								<button type="button" class="btn btn-default btn-sm">
+									<span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> like
+								</button>
+								<button class="btn btn-default btn-sm" type="button" style="background: none repeat scroll 0px 0px rgb(26, 179, 150);">
+									<span class="glyphicon glyphicon-heart" aria-hidden="true"></span> love
+								</button>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="row2">
+							<div class="media">
+								<div class="media-left media-middle">
+									<a href="#"> <img class="media-object" src="..." alt="..."> </a>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Milk Smith</h4>
+									<p>
+										Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+									</p>
+									<span>Today 4:21 pm - 12.06.2014</span>
+								</div>
+							</div>
+							<div class="media">
+								<a class="pull-right" href="#"> <img class="media-object" src="img/mickey.png"
+								alt="mickey"> </a>
+								<div class="media-body">
+									<h4 class="media-heading">Media heading</h4>
+									<p>
+										Lorem Ipsum is simply dummy text of the printing
+									</p>
+									<p>
+										Today 4:21 pm - 12.06.2014
+									</p>
+								</div>
+							</div>
+							<div class="media">
+								<div class="media-left media-middle">
+									<a href="#"> <img class="media-object" src="..." alt="..."> </a>
+								</div>
+								<div class="media-body">
+									<h4 class="media-heading">Milk Smith</h4>
+									<p>
+										Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard
+									</p>
+									<span>Today 4:21 pm - 12.06.2014</span>
+								</div>
+							</div>
+							<form method="post" action="">
+								<textarea name="comments" cols="25" rows="5">
+										Message
+								</textarea>
+								<br>
+									<input type="submit" value="send" />
+								</form>
+							
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="row3">
+							<div class="progressbox">
+								<div class="progressbar">
+									<div class="memory">
+										<strong>Memory</strong>
+										<span>10/200 GB</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+											<span class="sr-only">60% Complete</span>
+										</div>
+									</div>
+								</div>
+								<div class="progressbar">
+									<div class="memory">
+										<strong>Bandwidth</strong>
+										<span>20 GB</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
+											<span class="sr-only">60% Complete</span>
+										</div>
+									</div>
+								</div>
+								<div class="progressbar">
+									<div class="memory">
+										<strong>Activity</strong>
+										<span>73%</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+											<span class="sr-only">60% Complete</span>
+										</div>
+									</div>
+								</div>
+								<div class="progressbar">
+									<div class="memory">
+										<strong>FTP</strong>
+										<span>400 GB</span>
+									</div>
+									<div class="progress">
+										<div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+											<span class="sr-only">60% Complete</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="panel panel-primary">
+								<div class="panel-heading">
+									Success Panel
+								</div>
+								<div class="panel-body">
+									<p>
+										Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+										Lorem Ipsum has been the industry's standard dummy text ever since the 1500s
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

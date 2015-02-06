@@ -1,0 +1,113 @@
+*{
+	margin:0px;
+}
+
+body {
+font:12px Verdana, Geneva, Arial, Helvetica, sans-serif;
+background:#e5e5e5;
+
+}
+ul{
+	list-style: none;
+}
+
+#main-wrapper{
+	width:940px;
+	height:500px;
+	border:1px solid red;
+	margin:0 auto;
+}
+
+#main-wrapper .header{
+	width:100%;
+	height:100px;
+	
+	color:#fff;
+	background: #1e5799; /* Old browsers */
+
+
+background: -webkit-linear-gradient(top,  #1e5799 0%,#0677d3 50%,#1e5799 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #1e5799 0%,#0677d3 50%,#1e5799 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #1e5799 0%,#0677d3 50%,#1e5799 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #1e5799 0%,#0677d3 90%,#1e5799 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e5799', endColorstr='#1e5799',GradientType=0 ); /* IE6-9 */
+
+	
+	
+}
+#main-wrapper .header .logo{
+	background:url(../img/logo.gif) 0 0px no-repeat;
+	display:inline-block;
+	width:110px;
+	height:73px;
+	text-indent:-9999px;
+}
+
+#main-wrapper .header .utility{
+	float:right;
+	margin:20px 20px 0 0
+}
+#main-wrapper .header .utility ul li{
+	display:inline-block;
+}
+#main-wrapper .header .utility ul li a{
+	color:#fff;
+} 
+#main-wrapper .header .search-form{
+	float:right;
+	margin-top:10px;
+}
+#main-wrapper .main-nav{
+	background: #eee;
+	text-align: center;
+	border-top:5px solid red;
+
+}
+#main-wrapper .main-nav ul li{
+	display:inline-block;
+	margin:0 20px 0 20px;
+		padding:20px 0 
+}
+#main-wrapper .main-nav ul li a{
+
+}
+
+#main-wrapper .main-container{
+	
+}
+#main-wrapper .main-container .left-nav{
+	width:20%;
+	background:#fff;
+	float:left;
+}
+#main-wrapper .main-container .left-nav ul{
+	marign:0px;
+	padding:0px;
+}
+#main-wrapper .main-container .left-nav ul li{
+	background:#ddd;
+	margin:5px 0 0 0;
+	padding:5px 5px 5px 15px;
+}
+#main-wrapper .main-container .left-nav ul li a{
+	color:#333;
+	text-decoration:none;
+	
+}
+#main-wrapper .main-container .right-content{
+	float:left
+}
+.icon{
+	background:url(../img/glyphicons-halflings.png) 0 0 no-repeat;
+	display:inline-block;
+	vertical-align: text-top;
+}
+.icon-expand{
+	background-position:-1px -97px;
+	width: 12px;
+	height:13px;
+	
+}
+#main-wrapper .main-container .left-nav li .icon-expand{
+	float:right;
+}
