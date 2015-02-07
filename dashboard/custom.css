@@ -1,0 +1,52 @@
+body {
+	font: 14px Verdana, Geneva, Arial, Helvetica, sans-serif;
+	line-height: 1.42857;
+}
+* {
+	margin: 0px;
+}
+#container {
+	width: 25%;
+	border: 1px solid #c1c1c1;
+	padding-bottom: 40px;
+	border-radius:10px;
+	margin:50px;
+}
+h1 {
+	margin: 15px;
+}
+.form-control {
+	width: 80%;
+	padding: 6px 12px;
+	margin: 0px 15px 15px 15px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+	color: #555;
+}
+.form-control::-moz-placeholder {
+	color: #999;
+	opacity: 1;
+}
+input {
+	line-height: inherit;
+}
+
+.checkbox {
+	margin: 0px 0px 15px 15px;
+}
+.btn{
+	background: #1e5799; /* Old browsers */
+	background: -moz-linear-gradient(top, #1e5799 0%, #207cca 56%, #7db9e8 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#1e5799), color-stop(56%,#207cca), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top, #1e5799 0%,#207cca 56%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+	background: linear-gradient(to bottom, #1e5799 0%,#207cca 56%,#7db9e8 100%); /* W3C */
+	border-color: #2e6da4;
+	color: #fff;
+	margin-left: 15px;
+	padding: 8px 15px;
+	border-radius: 7px;
+	font-size:17px;
+	box-shadow:none;
+
+}
